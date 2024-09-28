@@ -4,7 +4,7 @@ function TrainingCard({ details }) {
   return (
     <>
       <div className="px-8 md:px-12 mb-4">
-        <h6 className="bg-gray-300 text-black font-semibold text-xl rounded-md mb-2 text-gray-400 pl-4" id="school">
+        <h6 className="bg-gray-300 text-black font-semibold text-xl rounded-md mb-2 pl-4" id="school">
           {details.school}
         </h6>
         <div className="pl-4">{details.date}</div>

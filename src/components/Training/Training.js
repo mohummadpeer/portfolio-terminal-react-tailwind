@@ -5,7 +5,7 @@ import TrainingCard from "./TrainingCard";
 function Training() {
   return (
     <>
-      <section className="" id="training">
+      <section id="training">
         <h2 className="text-left text-xl p-4" id="title">
           <span className="text-red-600"> $ > </span>
           <span className="text-vert">ls -la ~/Formations</span>

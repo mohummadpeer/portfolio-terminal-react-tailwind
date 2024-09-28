@@ -5,6 +5,7 @@ import Training from "./components/Training/Training";
 import Works from "./components/Works/Works";
 import Fullstack from "./components/Fullstack/Fullstack";
 import Devops from "./components/Devops/Devops";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Works />
         <Fullstack />
         <Devops/>
+        <Projects/>
       </div>
     </div>
   );
