@@ -7,8 +7,8 @@ function Training() {
     <>
       <section id="training">
         <h2 className="text-left text-xl p-4" id="title">
-          <span className="text-red-600"> $ > </span>
-          <span className="text-vert">ls -la ~/Formations</span>
+          <span className="text-red-500 font-semibold"> $ > </span>
+          <span className="text-vert font-semibold">ls -la ~/Formations</span>
         </h2>
         <div className="">
           {TRAINING_EXPERIENCE.map((item) => (

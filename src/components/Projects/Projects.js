@@ -5,7 +5,7 @@ function Projects() {
     <>
       <div className="w-full" id="projects">
       <h2 className="text-left text-xl p-4" id="title">
-          <span className="text-red-600"> $ > </span>
+          <span className="text-red-500 font-semibold"> $ > </span>
           <span className="text-vert">git commit -m "PROJETS"</span>
         </h2>
 

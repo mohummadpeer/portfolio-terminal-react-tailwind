@@ -4,7 +4,7 @@ function WorksCard({ details }) {
   return (
     <>
       <div className="px-12 py-4">
-        <h6 className="text-blue-200 font-semibold text-xl rounded-md mb-2 pl-4" id="school">
+        <h6 className="text-vert text-xl rounded-md mb-2 pl-4" id="school">
           {details.title}
         </h6>
         <div className="flex flex-col md:flex-row justify-between">
