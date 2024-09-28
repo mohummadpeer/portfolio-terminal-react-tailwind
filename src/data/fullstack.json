@@ -1,0 +1,38 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+    },
+    {
+      "title": "TAILWIND CSS",
+      "imageSrc": "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png"
+    },
+    {
+      "title": "JAVA SCRIPT",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/640px-Javascript_badge.svg.png"
+    },
+    {
+      "title": "REACT",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
+    },
+    {
+      "title": "SPRING BOOT",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Springboot.jpg/640px-Springboot.jpg"
+    },
+    {
+      "title": "PHP",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/640px-Webysther_20160423_-_Elephpant.svg.png"
+    },
+    {
+      "title": "MYSQL",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Antu_mysql-workbench.svg/640px-Antu_mysql-workbench.svg.png"
+    },
+    {
+      "title":"POSTGRES",
+      "imageSrc":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png"
+    }
+  ]

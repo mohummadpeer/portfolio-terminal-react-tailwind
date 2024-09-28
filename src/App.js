@@ -1,4 +1,5 @@
 import "./App.css";
+import Fullstack from "./components/Fullstack/Fullstack";
 import Header from "./components/Header";
 import Training from "./components/Training/Training";
 import Works from "./components/Works/Works";
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Training />
         <Works />
+        <Fullstack/>
       </div>
     </div>
   );
