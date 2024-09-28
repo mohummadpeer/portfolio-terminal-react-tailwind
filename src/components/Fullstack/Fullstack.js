@@ -7,7 +7,7 @@ function Fullstack() {
       <div id="fullstack">
         <h2 className="text-left text-xl p-4" id="title">
           <span className="text-red-600"> $ > </span>
-          <span className="text-vert">cat ./Compétences Full Stack</span>
+          <span className="text-vert">cat ./Compétences Fullstack</span>
         </h2>
 
         <div className="flex flex-wrap">

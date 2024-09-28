@@ -6,7 +6,7 @@ function Projects() {
       <div className="w-full" id="projects">
       <h2 className="text-left text-xl p-4" id="title">
           <span className="text-red-600"> $ > </span>
-          <span className="text-vert">git commit -m "PROJECTS"</span>
+          <span className="text-vert">git commit -m "PROJETS"</span>
         </h2>
 
         <div className="p-4 flex flex-col md:flex-row md:gap-4">
@@ -16,7 +16,7 @@ function Projects() {
             </h1>
             <p className="text-center my-4 p-4">
               Spring Boot - Spring Security - Oauth Google - Spring Data JPA -
-              Thymeleaf - TailwindCSS - Mysql - Java Mail - Kafka - Github
+              Thymeleaf - Tailwind CSS - Mysql - Java Mail - Kafka - Github
               Actions - Docker - Kubernetes - Kvm - Libvirt
             </p>
           </div>
@@ -26,7 +26,7 @@ function Projects() {
               Bookmarker
             </h1>
             <p className="text-center my-4 p-4">
-              Spring Boot - Postgres - Nextjs - Flyway - Github Actions - Docker
+              Spring Boot - Spring Data JPA - Postgres - Nextjs - Tailwind CSS - Flyway - Github Actions - Docker
               - Kubernetes - Kvm - Libvirt
             </p>
           </div>

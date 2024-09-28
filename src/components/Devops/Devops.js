@@ -4,7 +4,7 @@ import devops from "../../data/devops.json";
 function Devops() {
   return (
     <>
-      <div id="fullstack">
+      <div id="devops">
         <h2 className="text-left text-xl p-4 mb-4" id="title">
           <span className="text-red-600"> $ > </span>
           <span className="text-vert">ps -ax | grep Compétences Devops</span>

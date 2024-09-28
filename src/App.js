@@ -6,6 +6,7 @@ import Works from "./components/Works/Works";
 import Fullstack from "./components/Fullstack/Fullstack";
 import Devops from "./components/Devops/Devops";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Training />
         <Works />
         <Fullstack />
-        <Devops/>
-        <Projects/>
+        <Devops />
+        <Projects />
+        <Footer/>
       </div>
     </div>
   );

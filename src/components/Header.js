@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
+import Navbar from "./Navbar/Navbar";
 import pdf from "../data/cv.pdf";
 function Header() {
 
   return (
     <>
       <header>
+        <Navbar/>
         {/* <h1 id="title" className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl bg-green-200 sm:bg-purple-300 md:bg-gray-300 lg:bg-blue-300 xl:bg-red-500"> */}
         <h1
           id="title"
