@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <header>
-        <h1 className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl bg-green-200 sm:bg-purple-300 md:bg-gray-300 lg:bg-blue-300 xl:bg-red-500">
+        <h1 id="title" className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl bg-green-200 sm:bg-purple-300 md:bg-gray-300 lg:bg-blue-300 xl:bg-red-500">
           Mohummad_PEER
         </h1>
         <div className="flex flex-col md:flex-row">
@@ -14,21 +14,21 @@ function Header() {
                 <div className="min-w-24 md:min-w-36 md:min-w-40 text-vert">
                   Email :
                 </div>
-                <div class="Value">mohummad.peer@epitech.eu</div>
+                <div>mohummad.peer@epitech.eu</div>
               </li>
 
               <li className="m-4 flex flex-row">
                 <div className="min-w-24 md:min-w-36 md:min-w-40 text-vert">
                   Téléphone :
                 </div>
-                <div class="Value">07 83 97 49 82</div>
+                <div>07 83 97 49 82</div>
               </li>
 
               <li className="m-4 flex flex-row">
                 <div className="min-w-24 md:min-w-36 md:min-w-40 text-vert">
                   Ville
                 </div>
-                <div class="Value">13001 - Marseille</div>
+                <div>13001 - Marseille</div>
               </li>
 
               <div className="m-4 flex flex-row justify-center gap-12">

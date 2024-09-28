@@ -14,3 +14,7 @@ body {
   background-size: contain;
   font-family: 'Poppins', monospace;
 }
+
+#title{
+  font-family: 'Fire Code', monospace;
+}

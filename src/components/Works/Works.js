@@ -6,9 +6,9 @@ function Works() {
   return (
     <>
       <section className="" id="works">
-        <h2 className="text-left text-xl p-4">
+        <h2 className="text-left text-xl p-4" id="title">
           <span className="text-red-600"> $ > </span>
-          <span className="text-vert">echo -e Expériences Professionnelles</span>
+          <span className="text-vert">tree -FQ Expériences Professionnelles</span>
         </h2>
         <div className="">
           {WORKS_EXPERIENCE.map((item) => (
