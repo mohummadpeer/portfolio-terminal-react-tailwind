@@ -1,14 +1,14 @@
 [
     {
       "title": "LINUX",
-      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Linux_Logo.jpg/640px-Linux_Logo.jpg"
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Made_with_Linux_fuchsia.svg/600px-Made_with_Linux_fuchsia.svg.png"
     },
     {
       "title": "WINDOWS",
-      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Microsoft_logo_%282012%29_modified.png/640px-Microsoft_logo_%282012%29_modified.png"
+      "imageSrc": "https://i.pinimg.com/736x/c6/18/ed/c618edb71c600432c13ebd6ef2a0c317.jpg"
     },{
       "title": "KVM",
-      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Kvmbanner-logo2_1.png/640px-Kvmbanner-logo2_1.png"
+      "imageSrc": "https://www.ctrlaltdevelop.com/wp-content/uploads/2021/02/KVM-TuxFlat.jpg"
     },
     {
       "title": "VIRTUALBOX",
@@ -25,6 +25,10 @@
     {
       "title": "VAGRANT",
       "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vagrant.png"
+    },
+    {
+      "title": "JENKINS",
+      "imageSrc": "https://ih1.redbubble.net/image.453956200.1706/tst,small,507x507-pad,600x600,f8f8f8.u5.jpg"
     },
     {
       "title": "GITHUB ACTIONS",

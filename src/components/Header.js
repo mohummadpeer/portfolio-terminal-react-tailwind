@@ -1,31 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import pdf from "../data/cv.pdf";
 function Header() {
+
   return (
     <>
       <header>
-        <h1 id="title" className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl bg-green-200 sm:bg-purple-300 md:bg-gray-300 lg:bg-blue-300 xl:bg-red-500">
+        {/* <h1 id="title" className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl bg-green-200 sm:bg-purple-300 md:bg-gray-300 lg:bg-blue-300 xl:bg-red-500"> */}
+        <h1
+          id="title"
+          className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl"
+        >
           Mohummad_PEER
         </h1>
+        <div className="__movingtexts w-full flex flex-row">
+          <h1 className="text-white text-2xl uppercase opacity-25">esprit d'equipe - adaptabilite - autonome </h1>
+        </div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 overflow-hidden">
             <ul className="m-0 md:m-4 flex flex-col text-md sm:text-lg md:text-xl">
               <li className="m-4 flex flex-row">
-                <div className="min-w-24 md:min-w-36 md:min-w-40 text-vert">
+                <div className="min-w-28 md:min-w-36 md:min-w-40 text-vert">
                   Email :
                 </div>
                 <div>mohummad.peer@epitech.eu</div>
               </li>
 
               <li className="m-4 flex flex-row">
-                <div className="min-w-24 md:min-w-36 md:min-w-40 text-vert">
+                <div className="min-w-28 md:min-w-36 md:min-w-40 text-vert">
                   Téléphone :
                 </div>
                 <div>07 83 97 49 82</div>
               </li>
 
               <li className="m-4 flex flex-row">
-                <div className="min-w-24 md:min-w-36 md:min-w-40 text-vert">
+                <div className="min-w-28 md:min-w-36 md:min-w-40 text-vert">
                   Ville
                 </div>
                 <div>13001 - Marseille</div>
@@ -49,7 +57,7 @@ function Header() {
                   </a>
                 </li>
                 <li className="size-12">
-                  <a class="" href={pdf} download="cv.pdf" target="_blank">
+                  <a class="" href={pdf} download="cv.pdf">
                     <img
                       src="https://img.icons8.com/?size=100&id=2l1x6CDEkJJU&format=png&color=40C057"
                       alt="cv"

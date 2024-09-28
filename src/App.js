@@ -1,8 +1,10 @@
 import "./App.css";
-import Fullstack from "./components/Fullstack/Fullstack";
+
 import Header from "./components/Header";
 import Training from "./components/Training/Training";
 import Works from "./components/Works/Works";
+import Fullstack from "./components/Fullstack/Fullstack";
+import Devops from "./components/Devops/Devops";
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
         <Header />
         <Training />
         <Works />
-        <Fullstack/>
+        <Fullstack />
+        <Devops/>
       </div>
     </div>
   );
