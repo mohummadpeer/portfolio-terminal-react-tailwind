@@ -1,7 +1,7 @@
 export const TRAINING_EXPERIENCE = [
     {
         school: "EPITECH",
-        titled: "Etudiant en Architecte de systèmes d’information - Prépa MSC PRO",
+        titled: "Etudiant en Architecte des systèmes d’information - Prépa MSC PRO",
         date: "Depuis Septembre 2024"
     },
     {
@@ -10,8 +10,8 @@ export const TRAINING_EXPERIENCE = [
         date: "Septembre 2019 - Novembre 2019"
     },
     {
-        school: "AFPAR – BTS",
-        titled: "Technicien Informatique / Développeur application",
+        school: "AFPA",
+        titled: "BTS Technicien Informatique / Développeur application",
         date: "1997 - 1998"
     },
     {
