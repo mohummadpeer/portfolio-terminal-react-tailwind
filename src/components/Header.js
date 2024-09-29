@@ -2,41 +2,55 @@ import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar/Navbar";
 import pdf from "../data/cv.pdf";
 function Header() {
-
   return (
     <>
       <header>
-        <Navbar/>
+        <Navbar />
         {/* <h1 id="title" className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl bg-green-200 sm:bg-purple-300 md:bg-gray-300 lg:bg-blue-300 xl:bg-red-500"> */}
         <h1
           id="title"
           className="my-4 font-ligth text-center text-2xl sm:text-3xl md:text-4xl"
         >
-          Mohummad_PEER
+          Mohummad PEER
         </h1>
         <div className="__movingtexts w-full flex flex-row">
-          <h1 className="text-white text-2xl uppercase opacity-25">esprit d'equipe - adaptabilite - autonome </h1>
+          <h1 className="text-white text-2xl uppercase opacity-25">
+            esprit d'equipe - adaptabilite - autonome{" "}
+          </h1>
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 overflow-hidden">
-            <ul className="m-0 md:m-4 flex flex-col text-md sm:text-lg md:text-xl">
+            <ul className="mx-4 md:m-4 flex flex-col text-xl">
+              
               <li className="m-4 flex flex-row">
-                <div className="min-w-28 md:min-w-36 md:min-w-40 text-vert">
-                  Email :
+                <div className="min-w-12 text-vert">
+                  <img
+                    className="size-6 md:size-8"
+                    src="https://img.icons8.com/?size=50&id=124166&format=png&color=40C057"
+                    alt="email_pict"
+                  />
                 </div>
                 <div>mohummad.peer@epitech.eu</div>
               </li>
 
               <li className="m-4 flex flex-row">
-                <div className="min-w-28 md:min-w-36 md:min-w-40 text-vert">
-                  Téléphone :
+                <div className="min-w-12 text-vert">
+                  <img
+                    className="size-6 md:size-8"
+                    src="https://img.icons8.com/?size=50&id=9730&format=png&color=40C057"
+                    alt="phone_pict"
+                  />
                 </div>
                 <div>07 83 97 49 82</div>
               </li>
 
               <li className="m-4 flex flex-row">
-                <div className="min-w-28 md:min-w-36 md:min-w-40 text-vert">
-                  Ville
+                <div className="min-w-12 text-vert">
+                <img
+                    className="size-6 md:size-8"
+                    src="https://img.icons8.com/?size=100&id=7880&format=png&color=40C057"
+                    alt="location_pict"
+                  />
                 </div>
                 <div>13001 - Marseille</div>
               </li>
