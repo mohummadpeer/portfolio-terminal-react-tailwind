@@ -14,14 +14,13 @@ function Header() {
           Mohummad PEER
         </h1>
         <div className="__movingtexts w-full flex flex-row">
-          <h1 className="text-white text-2xl uppercase opacity-25">
-            esprit d'equipe - adaptabilite - autonome{" "}
+          <h1 className="text-white text-xl md:text-2xl uppercase opacity-25">
+            esprit d'equipe - adaptabilite - autonome
           </h1>
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 overflow-hidden">
-            <ul className="mx-4 md:m-4 flex flex-col text-xl">
-              
+            <ul className="mx-4 md:m-4 flex flex-col text-lg md:text-xl">
               <li className="m-4 flex flex-row">
                 <div className="min-w-12 text-vert">
                   <img
@@ -46,7 +45,7 @@ function Header() {
 
               <li className="m-4 flex flex-row">
                 <div className="min-w-12 text-vert">
-                <img
+                  <img
                     className="size-6 md:size-8"
                     src="https://img.icons8.com/?size=100&id=7880&format=png&color=40C057"
                     alt="location_pict"

@@ -84,4 +84,13 @@ export const WORKS_EXPERIENCE = [
             "Gestionnaire du parc informatique (environs 1300 pc)"
         ],
     },
+    {
+        title: "DEVELOPPEUR",
+        society: "RFO - ILE DE LA REUNION",
+        date: "Juillet 1998 - Décembre 1998",
+        responsabilities: [
+            "Création du Site Web de RFO Réunion (Html – Css)",
+            "Développement d’une application pour les appels audiotels sous Visual Basic"
+        ],
+    },
 ];
