@@ -3,7 +3,7 @@ import React from "react";
 function WorksCard({ details }) {
   return (
     <>
-      <div className="px-12 py-4">
+      <div className="md:px-12 py-4">
         <h6 className="text-vert text-xl rounded-md mb-2 pl-4" id="school">
           {details.title}
         </h6>

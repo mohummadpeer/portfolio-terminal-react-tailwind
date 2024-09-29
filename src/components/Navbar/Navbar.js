@@ -36,7 +36,7 @@ function Navbar() {
           <div className="block mt-4 md:hidden">
             <ul>
               <div className="flex flex-col p-4 rounded-xl bg-gray-200 text-black">
-                <ul className="font-semibold">
+                <ul className="text-lg font-semibold">
                   <a href="#training">
                     <li className="hover:cursor-pointer mb-2">Formations</li>
                   </a>
